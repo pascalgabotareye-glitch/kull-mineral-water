@@ -1,2 +1,79 @@
 # kull-mineral-water
 Water company 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kull Mineral Water</title>
+  <style>
+    body {margin:0; font-family: Arial, sans-serif; background-color:#e6f7ff; color:#333;}
+    header {background-color:#0077b6; color:white; padding:20px; text-align:center;}
+    section {padding:20px; max-width:600px; margin:auto;}
+    h2 {color:#0077b6; text-align:center;}
+    .info {background:#cce7ff; padding:15px; border-left:5px solid #0077b6; margin-bottom:20px;}
+    .products {display:flex; flex-direction:column; gap:15px;}
+    .product {background:white; padding:15px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+    .product h3 {margin:0 0 5px 0;}
+    .price {margin:3px 0; font-weight:bold; color:#0077b6;}
+    .bottles-image {margin-top:25px; text-align:center;}
+    .bottles-image img {width:100%; max-width:400px; height:auto; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+    footer {background:#222; color:white; text-align:center; padding:15px; margin-top:20px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kull Mineral Water</h1>
+  <p>Refreshing Water for Everyone</p>
+</header>
+
+<section>
+  <div class="info">
+    <p><strong>Owner:</strong> Joanita Dwamena</p>
+    <p><strong>Class:</strong> 1S11</p>
+    <p><strong>We deal with:</strong> Wholesale & Retail</p>
+    <p><strong>Contact:</strong> 0599876543</p>
+  </div>
+
+  <h2>Our Products & Prices</h2>
+  <div class="products">
+
+    <!-- Small Bottle -->
+    <div class="product">
+      <h3>Small Bottle (500ml)</h3>
+      <p class="price">1 bottle: 2.5 Cedis</p>
+      <p class="price">Pack of 15: 35 Cedis</p>
+    </div>
+
+    <!-- Medium Bottle -->
+    <div class="product">
+      <h3>Medium Bottle (1L)</h3>
+      <p class="price">1 bottle: 4 Cedis</p>
+      <p class="price">Pack of 15: 40 Cedis</p>
+    </div>
+
+    <!-- Large Bottle -->
+    <div class="product">
+      <h3>Large Bottle (1.5L)</h3>
+      <p class="price">1 bottle: 7 Cedis</p>
+      <p class="price">Pack of 15: 60 Cedis</p>
+    </div>
+
+  </div>
+
+  <!-- Generated image of all three bottles -->
+  <div class="bottles-image">
+    <h2>All Sizes in One View</h2>
+    <img src="https://i.imgur.com/3iUuXWk.png" alt="Small, Medium, Large Water Bottles">
+  </div>
+
+</section>
+
+<footer>
+  <p>&copy; 2026 Kull Mineral Water</p>
+  <p>Created by <strong>Joanita Dwamena</strong> | Class <strong>1S11</strong></p>
+</footer>
+
+</body>
+</html>
